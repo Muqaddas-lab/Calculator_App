@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Result Display TextView -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1565C0"
+        android:gravity="end"
+        android:padding="16dp"
+        android:text="@string/zero"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:contentDescription="@string/result_display" />
+
+    <!-- Calculator Buttons in GridLayout -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="4">
+
+        <!-- First Row -->
+        <Button
+            android:id="@+id/btn7"
+            android:text="@string/seven"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_seven_desc" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:text="@string/eight"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_eight_desc" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:text="@string/nine"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_nine_desc" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:text="@string/divide"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFA726"
+            android:contentDescription="@string/btn_divide_desc" />
+
+        <!-- Second Row -->
+        <Button
+            android:id="@+id/btn4"
+            android:text="@string/four"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_four_desc" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:text="@string/five"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_five_desc" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:text="@string/six"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_six_desc" />
+
+        <Button
+            android:id="@+id/btnMul"
+            android:text="@string/multiply"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFA726"
+            android:contentDescription="@string/btn_multiply_desc" />
+
+        <!-- Third Row -->
+        <Button
+            android:id="@+id/btn1"
+            android:text="@string/one"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_one_desc" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="@string/two"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_two_desc" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="@string/three"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_three_desc" />
+
+        <Button
+            android:id="@+id/btnSub"
+            android:text="@string/minus"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFA726"
+            android:contentDescription="@string/btn_minus_desc" />
+
+        <!-- Fourth Row -->
+        <Button
+            android:id="@+id/btn0"
+            android:text="@string/zero"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4FC3F7"
+            android:contentDescription="@string/btn_zero_desc" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:text="@string/clear"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#EF5350"
+            android:contentDescription="@string/btn_clear_desc" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:text="@string/equal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#66BB6A"
+            android:contentDescription="@string/btn_equal_desc" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="@string/plus"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFA726"
+            android:contentDescription="@string/btn_plus_desc" />
+    </GridLayout>
+</LinearLayout>

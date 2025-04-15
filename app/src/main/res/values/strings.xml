@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- Button text -->
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="equal">=</string>
+    <string name="clear">C</string>
+
+    <!-- Button content descriptions -->
+    <string name="btn_seven_desc">Button Seven</string>
+    <string name="btn_eight_desc">Button Eight</string>
+    <string name="btn_nine_desc">Button Nine</string>
+    <string name="btn_divide_desc">Button Divide</string>
+    <string name="btn_four_desc">Button Four</string>
+    <string name="btn_five_desc">Button Five</string>
+    <string name="btn_six_desc">Button Six</string>
+    <string name="btn_multiply_desc">Button Multiply</string>
+    <string name="btn_one_desc">Button One</string>
+    <string name="btn_two_desc">Button Two</string>
+    <string name="btn_three_desc">Button Three</string>
+    <string name="btn_minus_desc">Button Subtract</string>
+    <string name="btn_zero_desc">Button Zero</string>
+    <string name="btn_clear_desc">Clear Input</string>
+    <string name="btn_equal_desc">Equals</string>
+    <string name="btn_plus_desc">Button Add</string>
+
+    <!-- Result Display -->
+    <string name="result_display">Result display</string>
+</resources>
